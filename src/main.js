@@ -13,14 +13,6 @@ const app = createApp(App)
 const vuetify = createVuetify({
   theme: {
     defaultTheme: 'dark',
-    themes: {
-      dark: {
-        colors: {
-          primary: '#1867C0',
-          secondary: '#5CBBF6',
-        },
-      },
-    },
   },
 })
 
